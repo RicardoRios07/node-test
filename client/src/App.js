@@ -107,10 +107,9 @@ const App = () => {
           <label htmlFor="hora">Hora:</label>
           <select id="hora" value={hora} onChange={(e) => setHora(e.target.value)}>
             <option value="">Seleccionar hora</option>
-            <option value="09:00">16:30</option>
-            <option value="13:30">17:30</option>
-            <option value="18:00">21:15</option>
-            {/* Agrega más opciones de hora según sea necesario */}
+            <option value="15:00">16:30</option>
+            <option value="18:30">17:30</option>
+            <option value="21:00">21:15</option>
           </select>
           <label>Asientos:</label>
           <div className="asientos">
