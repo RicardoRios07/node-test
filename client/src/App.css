@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cuadro {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.boton-reservar {
+  background-color: #4584c7;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario {
+  margin-top: 40px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='date'],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.asientos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.asientos label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.boton-confirmar {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.parragraph {
+  font-size: 18px;
+  margin-top: 10px;
+}
